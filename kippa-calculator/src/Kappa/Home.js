@@ -1,9 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Calculations from "../Klippa/Components/Calculations";
+import CalcList from "./CalcList";
+import Main from "./Main";
+import Register from "./Register";
 
-import Game from "./Game";
-import Succes from "./Succes";
 function Home() {
   return (
     <div>
@@ -31,13 +30,11 @@ function Home() {
           </div>
         </div>
       </div>
-      <Calculations />
-      <Router>
-        <Switch>
-          <Route path="/game" exact component={Game} />
-          <Route path="/bingo" exact component={Succes} />
-        </Switch>
-      </Router>
+      <div className="ui container">
+        <Register />
+        <CalcList />
+        <Main />
+      </div>
     </div>
   );
 }
