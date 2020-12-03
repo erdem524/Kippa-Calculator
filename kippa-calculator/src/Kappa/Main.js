@@ -19,14 +19,12 @@ function Main() {
                   <i className="edit icon"></i>
                 </div>
               </div>
-
-              <div className="ui blue submit button">
-                {" "}
-                <button>
-                  <a href="/bingo">Submit</a>
-                </button>
-              </div>
-
+              <a href="/bingo">
+                <div className="ui blue submit button">
+                  Submit
+                  <button></button>
+                </div>
+              </a>
               <div className="ui negative message">
                 <i className="close icon"></i>
                 <div className="sement">Please try again!</div>

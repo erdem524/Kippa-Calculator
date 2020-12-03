@@ -6,6 +6,7 @@ import Home from "./Kappa/Home";
 // import Login from "./Kappa/Login";
 import Succes from "./Kappa/Succes";
 import Game from "./Kappa/Game";
+// import Fetcher from "./Kappa/Fetch";
 // import { Button } from "semantic-ui-react";
 
 // import Home from "./Kappa/Home";
@@ -22,6 +23,7 @@ function App() {
           </Switch>
         </Router>
       </div>
+      {/* <Fetcher /> */}
     </div>
   );
 }
